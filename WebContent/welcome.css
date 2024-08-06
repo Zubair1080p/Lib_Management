@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url('images/lib2.jpg')
+}
+
+.user
+{
+	color:gold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 20;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+{
+	list-style-type: none;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+/* Library Description Styles */
+.library-description {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.library-description h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.library-description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Featured Books Styles */
+.featured-books {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-books h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-item {
+    flex: 1 1 calc(33.333% - 40px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.book-item p {
+    margin: 10px 0 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* view books page css*/
+.vbook {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh; /* Full viewport height */
+        }
+
+        .vbook h1 {
+            margin-bottom: 20px;
+        }
+
+        .vbook input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
